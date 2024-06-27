@@ -1,0 +1,119 @@
+.main-section {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.main-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: red; /* Updated to match "Sản phẩm mới" */
+  text-align: center;
+}
+
+.categories {
+  display: flex;
+  overflow: hidden;
+  margin-bottom: 20px; /* Added space between sections */
+}
+
+.category-item {
+  position: relative;
+  flex: 0 0 25%; /* Show 4 items equally */
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.category-image {
+  width: 100%;
+  height: auto;
+}
+
+.category-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.category-title {
+  margin: 0;
+  font-size: 16px;
+}
+
+.category-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.navigation-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 1350px;
+
+}
+
+.nav-button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.nav-button:disabled {
+  color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Styles for the new products section */
+.new-products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Added gap between new product items */
+  justify-content: center;
+}
+
+.new-product-item {
+  width: 23%; /* Four items per row with some spacing */
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  border: 1px solid #ddd;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.new-product-item:hover {
+  transform: scale(1.05);
+}
+
+.new-product-image {
+  width: 100%;
+  height: auto;
+}
+
+.new-product-info {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.new-product-title {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.new-product-price {
+  font-size: 16px;
+  color: green;
+  font-weight: bold;
+}

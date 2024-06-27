@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #6a1b9a;
+  }
+  
+  .register-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(135deg, #6a1b9a 0%, #8e24aa 100%);
+  }
+  
+  .title {
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .register-form {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+  }
+  
+  .input-container {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #6a1b9a;
+  }
+  
+  .icon-eye {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #6a1b9a;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px 10px 10px 35px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .register-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #8e24aa;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .register-button:hover {
+    background-color: #7b1fa2;
+  }
+  
+  .social-login {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .social-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .social-button .social-icon {
+    margin-right: 10px;
+  }
+  
+  .facebook {
+    background-color: #3b5998;
+  }
+  
+  .twitter {
+    background-color: #1da1f2;
+  }
+  
+  .google {
+    background-color: #db4437;
+  }
+  
+  .facebook:hover {
+    background-color: #2d4373;
+  }
+  
+  .twitter:hover {
+    background-color: #0d95e8;
+  }
+  
+  .google:hover {
+    background-color: #c23321;
+  }
+  

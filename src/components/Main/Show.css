@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.product-image {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.thumbnail-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.thumbnail {
+  width: 100px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+
+.thumbnail:hover {
+  border-color: #000;
+}
+
+.product-info {
+  flex: 1;
+}
+
+.color-options,
+.size-options {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.color-option,
+.size-option {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+}
+
+.color-option.selected,
+.size-option.selected {
+  background-color: #000;
+  color: #fff;
+  border-color: #000;
+}

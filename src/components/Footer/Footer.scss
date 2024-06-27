@@ -1,0 +1,89 @@
+.footer {
+  padding: 20px;
+  background-color: #f8f8f8;
+
+  &-top {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+
+  &-item {
+    display: flex;
+    align-items: center;
+    max-width: 200px;
+    text-align: center;
+
+    img {
+      width: 40px;
+      height: 40px;
+      margin-right: 10px;
+    }
+  }
+
+  &-text {
+    .title {
+      font-weight: bold;
+      margin: 0;
+      width: 200px;
+    }
+
+    .description {
+      margin: 0;
+      color: #666;
+    }
+  }
+
+  &-bottom {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    .contact-info, .policies, .guide, .social-media {
+      max-width: 200px;
+      margin: 10px;
+    }
+
+    .contact-info {
+      .hotline {
+        display: flex;
+        align-items: center;
+
+        img {
+          width: 40px;
+          height: 40px;
+          margin-right: 10px;
+        }
+
+        .hotline-number {
+          font-size: 1.2em;
+          font-weight: bold;
+        }
+
+        .hotline-hours {
+          color: red;
+          width: 200px;
+        }
+      }
+    }
+
+    .social-media {
+      .icon {
+        display: flex;
+        flex-direction: column;
+
+        img {
+          width: 40px;
+          height: 40px;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+
+  .address {
+    width: 300px;
+  }
+}
